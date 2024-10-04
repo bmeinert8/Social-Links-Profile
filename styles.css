@@ -1,8 +1,98 @@
-body{
+body {
     background-color: #141414;
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  max-width: 304px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex: 1 0 0;
+  border-radius: 12px;
+  background:#1F1F1F;
+}
+
+.text-preset-1{
+  color: #FFFFFF;
+  text-align: center;
+  align-self: stretch;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  
+}
+
+.text-preset-2{
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.profile img {
+  height: 88px;
+  width: 88px;
+  border-radius: 50%;
+}
+
+.title {
+  color: #FFFFFF;
+  text-align: center;
+  align-self: stretch;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.location {
+  color: #C4F82A;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.links {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  gap: 16px;
+  
+}
+
+.btn {
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: #333333;
+  color: #FFFFFF;
+  border: none;
+  align-self: stretch;
+
 }
 
 .attribution {
