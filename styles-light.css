@@ -1,5 +1,5 @@
 body {
-    background-color: #141414;
+    background-color: #dfdfdf;
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
@@ -29,11 +29,11 @@ p {
   gap: 24px;
   flex: 1 0 0;
   border-radius: 12px;
-  background:#1F1F1F;
+  background:#b3b2b2;
 }
 
 .text-preset-1{
-  color: #FFFFFF;
+  color: #111111;
   text-align: center;
   align-self: stretch;
   font-size: 24px;
@@ -43,7 +43,7 @@ p {
 }
 
 .text-preset-2{
-  color: #FFFFFF;
+  color: #111111;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -60,7 +60,6 @@ p {
 }
 
 .title {
-  color: #FFFFFF;
   text-align: center;
   align-self: stretch;
   font-size: 24px;
@@ -69,7 +68,7 @@ p {
 }
 
 .location {
-  color: #2ae8e8;
+  color: #155353;
   text-align: center;
 }
 
@@ -94,29 +93,37 @@ p {
   align-items: center;
   gap: 8px;
   border-radius: 8px;
-  background-color: #333333;
+  background-color: #5f5f5f;
   color: #FFFFFF;
   border: none;
   align-self: stretch;
+
 }
+
+
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: #FFFFFF;
+  color: #111111;
   margin-bottom: 10px;
 }
 
 .attribution a {
-  color: #2ae8e8;
+  color: #155353;
   text-decoration: none;
 }
 
 @media (min-width: 1025px) {
   .btn:hover {
-    background-color: #2ae8e8;
-    color: #000000;
+    background-color: #898989;
+    color: #ffffff;
     cursor: pointer;
+  }
+  
+  .btn:active {
+  background-color: #3e3e3e;
+  color: #ffffff;
   }
 }
 
@@ -124,11 +131,21 @@ p {
   .card {
     max-width: 376px;
   }
+
+  .btn:active {
+    background-color: #3e3e3e;
+    color: #ffffff;
+  }
 }
 
 @media (max-width: 767px) {
   .card {
     max-width: 279px;
     padding: 24px;
+  }
+
+  .btn:active {
+    background-color: #3e3e3e;
+    color: #ffffff;
   }
 }
