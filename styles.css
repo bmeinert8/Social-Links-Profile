@@ -15,7 +15,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  height: 100vh;
+  height: 95vh;
 }
 
 .card {
@@ -103,4 +103,24 @@ p {
 
 .attribution a {
   color: #C4F82A; 
+}
+
+@media (min-width: 1025px) {
+  .btn:hover {
+    background-color: #C4F82A;
+    color: #000000;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    max-width: 376px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    max-width: 279px;
+    padding: 24px;
+  }
 }
