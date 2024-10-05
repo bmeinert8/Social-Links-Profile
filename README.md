@@ -1,5 +1,3 @@
-Sure! Here's a detailed README for your project:
-
 # Social Links Profile Page
 
 This project is a social links profile page that I built as a challenge from Frontend Mentor. After completing the initial challenge, I added my own customizations to the page, including my personal information, social media links, and a theme toggle feature that allows switching between light and dark modes.
@@ -86,7 +84,3 @@ Contributions are welcome! If you have any suggestions or improvements, feel fre
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
-
-Feel free to customize this README further to match your specific needs and preferences.
